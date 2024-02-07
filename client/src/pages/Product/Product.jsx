@@ -98,7 +98,7 @@ const Product = () => {
 
         toast.success(addToCartResponse?.data?.message);
       } catch (error) {
-        toast.error("Failed to add item to cart");
+        toast.error("Failed to add item");
       } finally {
         setIsLoading(false);
       }
